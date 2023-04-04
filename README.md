@@ -7,12 +7,12 @@
 ```bash
 docker-compose up
 ```
-2. Запускаем celery 
+3. Запускаем celery 
 ```bash
 celery -A upscale_task.celery worker --loglevel=info
 ```
-3. Запускаем файл `flask_app.py`
-4. Отправляем запросы, запустив файл `client.py`
+4. Запускаем файл `flask_app.py`
+5. Отправляем запросы, запустив файл `client.py`
 
 Должен получиться вывод вроде такого: 
 ```
